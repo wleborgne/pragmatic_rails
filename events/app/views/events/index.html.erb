@@ -1,0 +1,9 @@
+<h1><%= @events.count %> Events</h1>
+
+Listing generated at <%= @time %>
+
+<ul>
+  <% @events.each do |event| %>
+    <li><%= event %></li>
+  <% end %>
+</ul>
